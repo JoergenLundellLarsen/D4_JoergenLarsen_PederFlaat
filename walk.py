@@ -50,7 +50,7 @@ def main():
     print("Pentagon:", outcomes.count("Pentagon"))
     print("Kaia:", outcomes.count("Kaia"))
     print("Gjennomsnitt skritt:", sum(steps_list)/len(steps_list))
-    print("Gjennomsnitt tid(min) :", (sum(time_list)/len(time_list))/60)
+    print("Gjennomsnitt tid(min) :", round((sum(time_list)/len(time_list))/60))
 
 
 if __name__ == "__main__":
