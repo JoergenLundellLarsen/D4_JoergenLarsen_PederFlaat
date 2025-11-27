@@ -22,3 +22,4 @@ def test_always_kaia_when_only_kaia_accepts():
     random.seed(0)
     outcomes = [step(p_pentagon=0.0, p_kaia=1.0)[0] for _ in range(50)]
     assert set(outcomes) == {"Kaia"}
+

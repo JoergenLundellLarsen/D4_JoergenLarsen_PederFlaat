@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+tests/test_walk.py
+walking_home/__init__.py
+walking_home/walk.py
+walking_home.egg-info/PKG-INFO
+walking_home.egg-info/SOURCES.txt
+walking_home.egg-info/dependency_links.txt
+walking_home.egg-info/top_level.txt
