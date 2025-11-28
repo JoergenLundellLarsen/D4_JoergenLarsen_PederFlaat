@@ -2,6 +2,7 @@ README.md
 pyproject.toml
 tests/test_walk.py
 walking_home/__init__.py
+walking_home/explore_model.ipynb
 walking_home/walk.py
 walking_home.egg-info/PKG-INFO
 walking_home.egg-info/SOURCES.txt
