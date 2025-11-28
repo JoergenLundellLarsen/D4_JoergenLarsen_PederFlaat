@@ -1,8 +1,8 @@
 import random 
 
-def step(p_pentagon=0.8, p_kaia=0.8, audMax=50):
+def step(p_pentagon=0.8, p_kaia=0.8, AudMax=50):
     skritt_count = 0
-    pos = audMax#start posisjon audmax satte midt mellom ca
+    pos = AudMax #start posisjon audmax satte midt mellom ca
     tid = 0
     
     kaja = 80
@@ -41,7 +41,7 @@ def main():
     time_list = []
 
     for _ in range(1000):
-        outcome, steps, tid = step(p_pentagon=0.8, p_kaia=0.8, audMax=50)
+        outcome, steps, tid = step(p_pentagon=0.8, p_kaia=0.8, AudMax=50)
         outcomes.append(outcome)
         steps_list.append(steps)
         time_list.append(tid)
