@@ -12,13 +12,13 @@ def test_step_returns_valid_values():
     assert isinstance(t, int) and t > 0
 
 
-def test_always_pentagon_when_only_pentagon_accepts():
+def test_always_pentagon():
     random.seed(0)
     outcomes = [step(p_pentagon=1.0, p_kaia=0.0)[0] for _ in range(50)]
     assert set(outcomes) == {"Pentagon"}
 
 
-def test_always_kaia_when_only_kaia_accepts():
+def test_always_kaia():
     random.seed(0)
     outcomes = [step(p_pentagon=0.0, p_kaia=1.0)[0] for _ in range(50)]
     assert set(outcomes) == {"Kaia"}
